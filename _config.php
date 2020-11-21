@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("127.0.0.1", "root", "", "G-systems");
+$link = mysqli_connect("sql7.freemysqlhosting.net:3306", "sql7377940", "5kEjrFdFvU", "sql7377940");
 if (!$link) {
     echo "error connecting to database! wrong ip|name|pass";
     error_log("error connecting to database! wrong ip|name|pass", 0);
