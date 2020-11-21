@@ -56,12 +56,11 @@ if (empty($_GET['sort']) || ($_GET['sort'] == "new")) {
 
             <div style="margin-top: 20px;" class="user_panel">
 
-                <div class="user_panel_head">
-
+                <div class="home_head">
                     <?php if (!isset($_SESSION['user_name'])) :  ?>
-                        <h2> <a style="color:lightblue" href="account.php?user_register=true"> Join us</a></h2>
+                        <h2> <a style="color:black;" href="account.php?user_register=true">Click here to Join us</a></h2>
                     <?php elseif (isset($_SESSION['user_name'])) :  ?>
-                        <h2> <a style="color:lightblue" href="posts.php?post_new=1"> New Post</a></h2>
+                        <h2> <a style="color:black" href="posts.php?post_new=1"> New Post</a></h2>
                     <?php endif; ?>
                 </div>
                 <br>

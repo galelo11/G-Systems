@@ -86,7 +86,7 @@ if (isset($_POST['post_edit']) || (isset($_POST['post_submit']))) {
                 <input type="hidden" name="token" value="<?= get_token(); ?>">
 
                 <div class="user_panel_head">
-                    <h2 style="color:RGB(70,130,180)">New Post</h2>
+                    <h2 style="color:black;background-color: rgb(164, 233, 61);">New Post</h2>
                 </div><br>
 
                 <label class="new_post_user" for=""> <?= "New Post By : " . $_SESSION['user_name'] ?></label>
